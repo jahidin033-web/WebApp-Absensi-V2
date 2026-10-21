@@ -1,0 +1,91 @@
+{
+  "employees": [],
+  "projects": [
+    {
+      "id": "proj-1",
+      "nama": "Proyek Gedung A (Tower Office)",
+      "lat": -6.2,
+      "lng": 106.816666,
+      "radius": 150,
+      "shiftScheme": "1_SHIFT",
+      "statusAktif": true,
+      "shifts": [
+        {
+          "id": "shift-1-1",
+          "nama": "Shift Normal (Pagi)",
+          "jamMasuk": "08:00",
+          "jamPulang": "17:00",
+          "toleransi": 15,
+          "minJamKerja": 7
+        }
+      ]
+    },
+    {
+      "id": "proj-2",
+      "nama": "Proyek Jembatan B (Operasional 2 Shift)",
+      "lat": -6.21,
+      "lng": 106.82,
+      "radius": 200,
+      "shiftScheme": "2_SHIFT",
+      "statusAktif": true,
+      "shifts": [
+        {
+          "id": "shift-2-1",
+          "nama": "Shift 1 (Pagi/Siang)",
+          "jamMasuk": "07:00",
+          "jamPulang": "15:30",
+          "toleransi": 15,
+          "minJamKerja": 7
+        },
+        {
+          "id": "shift-2-2",
+          "nama": "Shift 2 (Malam/Lintas Hari)",
+          "jamMasuk": "19:00",
+          "jamPulang": "03:30",
+          "toleransi": 15,
+          "minJamKerja": 7
+        }
+      ]
+    },
+    {
+      "id": "proj-3",
+      "nama": "Workshop Fabrikasi Cilegon (3 Shift 24 Jam)",
+      "lat": -6.0025,
+      "lng": 106.0125,
+      "radius": 300,
+      "shiftScheme": "3_SHIFT",
+      "statusAktif": true,
+      "shifts": [
+        {
+          "id": "shift-3-1",
+          "nama": "Shift 1 (Pagi)",
+          "jamMasuk": "07:00",
+          "jamPulang": "15:00",
+          "toleransi": 15,
+          "minJamKerja": 7
+        },
+        {
+          "id": "shift-3-2",
+          "nama": "Shift 2 (Sore)",
+          "jamMasuk": "15:00",
+          "jamPulang": "23:00",
+          "toleransi": 15,
+          "minJamKerja": 7
+        },
+        {
+          "id": "shift-3-3",
+          "nama": "Shift 3 (Malam)",
+          "jamMasuk": "23:00",
+          "jamPulang": "07:00",
+          "toleransi": 15,
+          "minJamKerja": 7
+        }
+      ]
+    }
+  ],
+  "logs": [],
+  "deletedLogs": [],
+  "adminPin": "1234",
+  "companyName": "PT Konstruksi Pratama Mandiri",
+  "lastUpdated": 1792570454469
+}

@@ -1,0 +1,11 @@
+{
+  "name": "AbsensiPro - Sistem Presensi Lapangan",
+  "description": "Aplikasi absensi hybrid pekerja lapangan berbasis radius GPS, foto selfie live unmirrored, integrasi Google Sheets & Google Drive, serta rekapitulasi data multi-perangkat.",
+  "requestFramePermissions": [
+    "geolocation",
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
